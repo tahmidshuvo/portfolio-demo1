@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.menu-area {
+    overflow: hidden;
+}
+.menu-area ul {
+    float: right;
+    margin: 20px 10px;
+}
+.menu-area ul a {
+    text-decoration: none;
+}
+.menu-area ul li:hover {
+    color: #FF8063;
+}
+.menu-area ul li {
+    float: left;
+    margin-left: 40px;
+    list-style: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+.head-text-area {
+    margin-top: 20px;
+}
+.head-text-area h1, h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #363958;
+}
+.head-text-area h2 {
+    color: #FF8367;
+}
+.head-text-area p {
+    font-size: 22px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+.button {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+}
+.left-width {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+}
+.right-width {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    margin-left: 20px;
+}
+.header-area .image-area {
+    text-align: center;
+}
+.image-area img {
+    width: 70%;
+}
+.about-area .image-area img {
+    margin-top: -100px;
+}
