@@ -93,12 +93,13 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #3E3E3E;
+    margin-left: 50px;
 }
 .project-area {
     background-color: #F8F9FC;
 }
 .projects {
-    width: 20%;
+    width: 25%;
     float: left;
     height: auto;
     border: 2px white;
@@ -106,8 +107,73 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
     padding: 15px;
-    margin: 150px 10px;    
+    margin: 150px 10px;
+    margin-left: 70px;
 }
 .projects img {
     width: 100%;
 }
+.projects h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.projects p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+
+}
+.banner p {
+    display: block;
+    color: #ffffff;
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    width: 60%;
+    margin: 100px 10px;
+    text-align: center;
+}
+.banner img {
+    width: 70%;
+    margin: 100px auto;
+    display: block;
+}
+.banner a {
+    float: right;
+    margin-left: 1010px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin-top: 110px;
+}
+.icon-area {
+    text-align: center;
+}
+.icon-area p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+    margin: 10px 0;
+}
+.icon-area p:nth-child(2) {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+    margin: 10px 0;
+}
+.icon-area img {
+    width: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+} 
